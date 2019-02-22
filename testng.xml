@@ -4,6 +4,11 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="testScripts.HomeTest"/>
+        // to run particular test methods from a class 
+        <methods> 
+                <include name ="verifyPageNavigation" />
+                <include name ="verifyTabs" />
+        </methods>
       <class name="testScripts.DressTests"/>
     </classes>
 <!--     <packages>  // to run the package level..
